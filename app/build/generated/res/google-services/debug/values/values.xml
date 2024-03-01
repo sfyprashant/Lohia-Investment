@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://lohia-8aa6d-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">258504429682</string>
+    <string name="google_api_key" translatable="false">AIzaSyDy8-fn_EDqZ4hlVolmgVhPm7nonyxjPOc</string>
+    <string name="google_app_id" translatable="false">1:258504429682:android:edfb8116e8f30b2a94f2eb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDy8-fn_EDqZ4hlVolmgVhPm7nonyxjPOc</string>
+    <string name="google_storage_bucket" translatable="false">lohia-8aa6d.appspot.com</string>
+    <string name="project_id" translatable="false">lohia-8aa6d</string>
+</resources>

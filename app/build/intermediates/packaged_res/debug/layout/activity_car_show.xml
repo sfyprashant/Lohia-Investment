@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.Lohia.investment.Car_showActivity"
+    android:gravity="center_horizontal">
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/tool_bar_layout"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Main content -->
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:elevation="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:outlineAmbientShadowColor="@color/black"
+                android:weightSum="3">
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:id="@+id/backbtn"
+                    android:layout_weight="0.1"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:src="@drawable/baseline_arrow_back_24"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:id="@+id/activity_car_show"
+                android:layout_height="wrap_content">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center_horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Policy from"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:id="@+id/car_show_text_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:textSize="@dimen/_15sdp"
+                            android:background="@drawable/shapemob"
+                            android:drawablePadding="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:padding="@dimen/_10sdp"
+                            android:textColor="@color/black"
+                            android:textColorHighlight="@color/black"
+                            android:textColorHint="@color/black"
+                            android:imeOptions="actionDone"
+                            android:importantForAutofill="no"
+                            android:inputType="text" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Type"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:id="@+id/car_show_text_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:autofillHints=""
+                            android:textSize="@dimen/_15sdp"
+                            android:background="@drawable/shapemob"
+                            android:drawablePadding="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:padding="@dimen/_10sdp"
+                            android:textColor="@color/black"
+                            android:textColorHighlight="@color/black"
+                            android:textColorHint="@color/black"
+                            android:imeOptions="actionDone"
+                            android:importantForAutofill="no"
+                            android:inputType="text" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Policy Number"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:id="@+id/car_show_text_three"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:autofillHints=""
+                            android:background="@drawable/shapemob"
+                            android:drawablePadding="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textSize="@dimen/_15sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:textColor="@color/black"
+                            android:textColorHighlight="@color/black"
+                            android:textColorHint="@color/black"
+                            android:imeOptions="actionDone"
+                            android:importantForAutofill="no"
+                            android:inputType="text" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vehicle Category"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:id="@+id/car_show_text_four"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:autofillHints=""
+                            android:background="@drawable/shapemob"
+                            android:drawablePadding="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textSize="@dimen/_15sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:textColor="@color/black"
+                            android:textColorHighlight="@color/black"
+                            android:textColorHint="@color/black"
+                            android:imeOptions="actionDone"
+                            android:importantForAutofill="no"
+                            android:inputType="text" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Premium"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+
+
+                        <TextView
+                            android:id="@+id/car_show_text_five"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:autofillHints=""
+                            android:background="@drawable/shapemob"
+                            android:drawablePadding="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:imeOptions="actionDone"
+                            android:textSize="@dimen/_15sdp"
+                            android:importantForAutofill="no"
+                            android:inputType="text"
+                            android:padding="@dimen/_10sdp"
+                            android:textColor="@color/black"
+                            android:textColorHighlight="@color/black"
+                            android:textColorHint="@color/black" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vehicle Number"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/car_show_text_six"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:autofillHints=""
+                            android:background="@drawable/shapemob"
+                            android:drawablePadding="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:importantForAutofill="no"
+                            android:inputType="text"
+                            android:padding="@dimen/_10sdp"
+                            android:textColor="@color/black"
+                            android:textColorHighlight="@color/black"
+                            android:textColorHint="@color/black"
+                            android:textSize="@dimen/_15sdp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Make and Model"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/car_show_text_seven"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:autofillHints=""
+                            android:background="@drawable/shapemob"
+                            android:drawablePadding="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:importantForAutofill="no"
+                            android:textSize="@dimen/_15sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:textColor="@color/black"
+                            android:textColorHighlight="@color/black"
+                            android:textColorHint="@color/black" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Company Name"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/car_show_text_nine"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:autofillHints=""
+                            android:background="@drawable/shapemob"
+                            android:drawablePadding="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:textSize="@dimen/_15sdp"
+                            android:importantForAutofill="no"
+                            android:padding="@dimen/_10sdp"
+                            android:textColor="@color/black"
+                            android:textColorHighlight="@color/black"
+                            android:textColorHint="@color/black" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Policy Start Date"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/car_show_text_ten"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:autofillHints=""
+                            android:background="@drawable/shapemob"
+                            android:drawablePadding="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textSize="@dimen/_15sdp"
+                            android:imeOptions="actionDone"
+                            android:importantForAutofill="no"
+                            android:inputType="text"
+                            android:padding="@dimen/_10sdp"
+                            android:textColor="@color/black"
+                            android:textColorHighlight="@color/black"
+                            android:textColorHint="@color/black" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Policy End Date"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/car_show_text_eleven"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:autofillHints=""
+                            android:background="@drawable/shapemob"
+                            android:drawablePadding="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textSize="@dimen/_15sdp"
+                            android:imeOptions="actionDone"
+                            android:importantForAutofill="no"
+                            android:inputType="text"
+                            android:padding="@dimen/_10sdp"
+                            android:textColor="@color/black"
+                            android:textColorHighlight="@color/black"
+                            android:textColorHint="@color/black" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+                            <Button
+                                android:id="@+id/car_show_pay"
+                                android:layout_width="@dimen/_90sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_10sdp"
+                                android:layout_marginBottom="@dimen/_10sdp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/shapelogin"
+                                android:padding="@dimen/_10sdp"
+                                android:shadowColor="@android:color/transparent"
+                                android:text="Pay Now"
+                                android:textColor="@color/white" />
+                            <Button
+                                android:id="@+id/car_show_download"
+                                android:layout_width="@dimen/_90sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_10sdp"
+                                android:layout_marginBottom="@dimen/_10sdp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/shapelogin"
+                                android:padding="@dimen/_10sdp"
+                                android:shadowColor="@android:color/transparent"
+                                android:text="Download"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+            <!-- Your main content goes here -->
+
+
+        </FrameLayout>
+
+        <!-- Navigation Drawer -->
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigationView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/nav_drawer_heander"
+            app:menu="@menu/nav_drower_2" />
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</LinearLayout>

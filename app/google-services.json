@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "258504429682",
+    "firebase_url": "https://lohia-8aa6d-default-rtdb.firebaseio.com",
+    "project_id": "lohia-8aa6d",
+    "storage_bucket": "lohia-8aa6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258504429682:android:edfb8116e8f30b2a94f2eb",
+        "android_client_info": {
+          "package_name": "com.Lohia.investment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy8-fn_EDqZ4hlVolmgVhPm7nonyxjPOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/_15sdp"
+    tools:context="com.Lohia.investment.LoginActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/_125sdp"
+                android:layout_height="231dp"
+                android:layout_marginBottom="@dimen/_90sdp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/lohia_logo"
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:id="@+id/mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:autofillHints=""
+                android:background="@drawable/shapemob"
+                android:drawablePadding="@dimen/_10sdp"
+                android:gravity="center"
+                android:maxLength="10"
+                android:hint="@string/mobile_no"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorHint="@color/black"
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:inputType="numberSigned"
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/getotp"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shapelogin"
+                    android:padding="@dimen/_10sdp"
+                    android:shadowColor="@android:color/transparent"
+                    android:text="GET OTP"
+                    android:textColor="@color/white" />
+
+                <ProgressBar
+                    android:id = "@+id/progressbar_sending_otp"
+                    android:layout_width = "@dimen/_35sdp"
+                    android:layout_height = "@dimen/_35sdp"
+                    android:layout_gravity="center"
+                    android:visibility="gone"/>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/otp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="@dimen/_10sdp"-->
+<!--        android:autofillHints=""-->
+<!--        android:background="@drawable/shapemob"-->
+<!--        android:drawablePadding="@dimen/_10sdp"-->
+<!--        android:gravity="center"-->
+<!--        android:hint="OTP"-->
+<!--        android:padding="@dimen/_10sdp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textColorHighlight="@color/black"-->
+<!--        android:textColorHint="@color/black" />-->
+
+
+</LinearLayout>

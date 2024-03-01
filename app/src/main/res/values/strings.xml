@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Lohia Investments</string>
+    <string name="home">Uploaded Images</string>
+    <string name="setting">Setting</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="insurance">Insurance</string>
+    <string name="policy">Policy</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="mobile_no">MOBILE NO.</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="please_enter_the_otp_sent_to_you">Please Enter the OTP sent to you</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="welcome">WELCOME</string>
+    <string name="login_via_email_password">Login via Email/Password</string>
+    <string name="login_via_mobile">Login via Mobile</string>
+    <string name="Username">Username</string>
+    <string name="login_to_continue">Login to Continue</string>
+    <string name="password">Password</string>
+    <string name="welcome_to_lohias_investment">Welcome to Lohias Investment</string>
+    <string name="log_in">Log IN</string>
+    <string name="didn_t_receive_the_otp">Did\'t Receive the Otp</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register" />
+    <string name="sf">false</string>
+    <string name="st">true</string>
+    <string name="notification">Notification</string>
+    <string name="investment">Investment</string>
+    <string-array name="policy">
+        <item>None</item>
+        <item>Life</item>
+        <item>health</item>
+    </string-array>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="open1">OPEN1</string>
+    <string name="close1">CLOSE1</string>
+    <string name="policy_type">Policy Type</string>
+    <string name="policy_type2">Policy Type</string>
+    <string name="select_fd_type" />
+    <string name="organization_location_hint" />
+    <string name="locality_hint" />
+    <string name="nj_e_wealth_account">NJ E-Wealth Account</string>
+    <string name="nj_client_desk">NJ Client Desk</string>
+    <string name="add_policy">Add policy</string>
+    <string name="is_your_cover_sufficient">Is Your Cover Sufficient ?</string>
+    <string name="total_health_cover">Total Health Cover</string>
+    <string name="pending">Pending</string>
+    <string name="accepted">Accepted</string>
+    <string name="reject">Rejected</string>
+    <string name="fixed_deposits_from">Fixed Deposits from </string>
+    <string name="fixed_deposits_type">Fixed Deposits Type </string>
+    <string name="organization_bank">Organization or Bank </string>
+    <string name="frequency_interest">Frequency Interest </string>
+    <string name="fdrno">FDRNo</string>
+    <string name="interest_rate">Interest Rate</string>
+    <string name="organization_pb">Organization PB</string>
+    <string name="investment_amount">Investment Amount</string>
+    <string name="maturity_date">Maturity Date</string>
+    <string name="nominee_name">Nominee Name</string>
+    <string name="fixed_deposite">Fixed Deposits</string>
+    <string name="home1">Home</string>
+    <string name="are_you_financially_free">Are you Financially Free?</string>
+    <string name="home4">Home</string>
+    <string name="add_policy2">Add Policy</string>
+    <string name="contact_us">Contact us</string>
+    <string name="number">Number</string>
+    <string name="dob">DOB</string>
+    <string name="your_uploaded_receipt_s">Your Uploaded receipt\'s</string>
+    <string name="personal_accident">Personal Accident</string>
+</resources>

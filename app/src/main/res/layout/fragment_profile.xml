@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.Lohia.investment.ProfileFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f7f7f7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/_238sdp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_1sdp"
+                    app:cardCornerRadius="@dimen/_2sdp"
+                    app:contentPadding="@dimen/_10sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="3"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/textView_one"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_3sdp"
+                            android:layout_weight="1.6"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_18sdp"
+                            android:text="PRASHNAT SETH"
+                            android:textStyle="bold" />
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1.4">
+                            <Button
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/add_policy_btn"
+                                android:gravity="center"
+                                android:text="@string/add_policy"
+                                android:layout_marginTop="@dimen/_4sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:background="@drawable/snapeloginblue"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"
+                                android:layout_gravity="end" />
+                            <Button
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_marginTop="@dimen/_4sdp"
+                                android:id="@+id/google_form"
+                                android:text="@string/is_your_cover_sufficient"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:background="@drawable/snapeloginblue"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"
+                                android:layout_gravity="end" />
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textAlignment="textEnd"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:layout_gravity="end"-->
+<!--                                android:textColor="#000E65"-->
+<!--                                android:visibility="gone"-->
+<!--                                android:text="Is Your Cover Sufficient ?"/>-->
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:weightSum="3"
+                            android:orientation="horizontal">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:id="@+id/health_policy_number"
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="@dimen/_30sdp"
+                                    android:layout_centerInParent="true"
+                                    android:background="@drawable/health_policy"
+                                    android:gravity="center"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="24sp" />
+
+                                <TextView
+                                    android:id="@+id/textone"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/health_policy_number"
+                                    android:text="Health Policy"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="@dimen/_30sdp"
+                                    android:textColor="#000000"
+                                    android:textSize="@dimen/_14sdp" />
+
+
+
+                            </RelativeLayout>
+
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:id="@+id/motar_policy_number"
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="@dimen/_30sdp"
+                                    android:layout_centerInParent="true"
+                                    android:background="@drawable/health_policy"
+                                    android:gravity="center"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="24sp" />
+
+                                <TextView
+                                    android:id="@+id/textthree"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/motar_policy_number"
+                                    android:text="Motor Policy"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="@dimen/_30sdp"
+                                    android:textColor="#000000"
+                                    android:textSize="@dimen/_14sdp"/>
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:id="@+id/life_policy_number"
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="@dimen/_30sdp"
+                                    android:layout_centerInParent="true"
+                                    android:background="@drawable/health_policy"
+                                    android:gravity="center"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="24sp" />
+
+                                <TextView
+                                    android:id="@+id/texttwo"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/life_policy_number"
+                                    android:text="Life Policy"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="@dimen/_30sdp"
+                                    android:textColor="#000000"
+                                    android:textSize="@dimen/_14sdp"/>
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:weightSum="3"
+                            android:orientation="horizontal">
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1">
+
+                                <TextView
+                                    android:id="@+id/covtextone"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/total_health_cover"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="@dimen/_10sdp"
+                                    android:textColor="#000000"
+                                    android:textSize="@dimen/_10sdp" />
+                                <TextView
+                                    android:id="@+id/health_cover"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/covtextone"
+                                    android:text=""
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="@dimen/_3sdp"
+                                    android:textColor="#000000"
+                                    android:textSize="@dimen/_10sdp" />
+
+
+
+                            </RelativeLayout>
+
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.8">
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1">
+
+                                <TextView
+                                    android:id="@+id/covtexttwo"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginTop="@dimen/_10sdp"
+                                    android:text="Total Life Cover"
+                                    android:textColor="#000000"
+                                    android:textSize="@dimen/_10sdp" />
+                                <TextView
+                                    android:id="@+id/life_cover"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/covtexttwo"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="@dimen/_3sdp"
+                                    android:textColor="#000000"
+                                    android:textSize="@dimen/_12sdp" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/child_data"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/pf_image_list"
+                android:visibility="gone"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/pf_see_more"
+                        android:visibility="gone"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="@dimen/_1sdp"
+                        android:layout_marginTop="@dimen/_1sdp"
+                        android:layout_marginEnd="@dimen/_3sdp"
+                        android:layout_marginBottom="@dimen/_1sdp"
+                        android:text="See More >>>"
+                        android:textColor="@color/red" />
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/your_uploaded_receipt_s"
+                    android:textSize="@dimen/_25sdp"/>
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/upload_images"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+

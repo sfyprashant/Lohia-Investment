@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.Lohia.investment.usernameActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <ImageView
+                android:layout_width="@dimen/_125sdp"
+                android:layout_height="231dp"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/logo1"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_to_lohias_investment"
+                android:textSize="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_to_continue"
+                android:textSize = "@dimen/_20sdp"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                />
+
+            <EditText
+                android:id="@+id/username_text_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:autofillHints=""
+                android:background="@drawable/shapemob"
+                android:drawablePadding="@dimen/_10sdp"
+                android:gravity="center"
+                android:hint="@string/Username"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorHint="@color/black"
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:autofillHints=""
+                android:background="@drawable/shapemob"
+                android:drawablePadding="@dimen/_10sdp"
+                android:gravity="center"
+                android:hint="@string/password"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorHint="@color/black"
+                app:passwordToggleEnabled="true"
+                android:inputType="textPassword"
+                />
+            <Button
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height = "wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:background="@color/white"
+                android:elevation = "@dimen/_5sdp"
+                android:text="@string/forgot_password"
+                android:textColor="@color/primary"
+                android:layout_marginTop="@dimen/_5sdp"/>
+
+
+            <Button
+                android:id="@+id/loginbtn"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/shapelogin"
+                android:padding="@dimen/_10sdp"
+                android:shadowColor="@android:color/transparent"
+                android:text="@string/log_in"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/shapelogin"
+                android:padding="@dimen/_10sdp"
+                android:shadowColor="@android:color/transparent"
+                android:text="Register"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--       -->
+
+<!--        <ProgressBar-->
+<!--            android:id = "@+id/progressbar_signin"-->
+<!--            android:layout_width = "@dimen/_35sdp"-->
+<!--            android:layout_height = "@dimen/_35sdp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:visibility="gone"/>-->
+<!--    </FrameLayout>-->
+
+
+</LinearLayout>

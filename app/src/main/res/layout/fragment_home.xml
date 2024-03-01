@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bs1"
+    tools:context="com.Lohia.investment.HomeFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    android:weightSum="4"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:weightSum="2"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/insuranceButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/greenbtnsh"
+                android:elevation="@dimen/_25sdp"
+                android:shadowColor="@color/black"
+                android:text="@string/insurance"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_15sdp"
+                android:translationZ="@dimen/_15sdp" />
+
+            <Button
+                android:id="@+id/investmentButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/shapepolicy"
+                android:text="@string/investment"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_15sdp"
+                tools:ignore="VisualLintBounds" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/notification_text"
+                android:textSize="@dimen/_15sdp"
+                android:padding="@dimen/_4sdp"
+                android:singleLine="true"
+                android:textColor="@color/red"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="-1"
+                android:scrollHorizontally="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:clickable="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_weight="0.85"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/car"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/car"
+                android:elevation="@dimen/_16sdp"
+                android:text="@null"
+                tools:ignore="RtlHardcoded" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Motor"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/term"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/limg"
+                android:elevation="@dimen/_16sdp"
+                android:text="@null"
+                tools:ignore="RtlHardcoded" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Life"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.85"
+        android:layout_marginTop="@dimen/_5sdp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="140dp">
+            <Button
+                android:id="@+id/health"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/medicin"
+                android:text="@null"
+                android:elevation="@dimen/_16sdp"
+                tools:ignore="RtlHardcoded" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Health"/>
+
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="140dp"-->
+<!--            android:orientation="vertical"-->
+<!--            android:gravity="center">-->
+<!--            <Button-->
+<!--                    android:id="@+id/homeinsurance"-->
+<!--                    android:layout_width="100dp"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:background="@drawable/upload2"-->
+<!--                    android:text="@null"-->
+<!--                    android:elevation="@dimen/_16sdp"-->
+<!--                    tools:ignore="RtlHardcoded" />-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="@dimen/_15sdp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:maxLines="2"-->
+<!--                android:layout_marginTop="@dimen/_5sdp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:text="@string/home"/>-->
+
+<!--        </LinearLayout>-->
+
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/_10sdp">
+
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:id="@+id/image_slider"/>
+        <LinearLayout
+            android:id="@+id/dotsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dot1"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:src="@drawable/dot_selected"
+                android:layout_marginEnd="@dimen/_3sdp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dot2"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:src="@drawable/dot_unselected"
+                android:layout_marginEnd="@dimen/_2sdp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dot3"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:src="@drawable/dot_unselected"
+                android:layout_marginEnd="@dimen/_3sdp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>
+    </FrameLayout>

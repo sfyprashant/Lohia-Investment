@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.Lohia.investment.PaymentSuccessActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/customButton"
+        android:elevation="@dimen/_16sdp"
+        android:text="Payment Successful"
+        android:textStyle="bold"
+        android:textColor="#47CD4D"
+        android:layout_margin="@dimen/_15sdp"
+        android:textSize="@dimen/_26sdp"/>
+
+    <Button
+        android:id="@+id/ps_home"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:background="@drawable/shapelogin"
+        android:padding="@dimen/_10sdp"
+        android:onClick="pay"
+        android:shadowColor="@android:color/transparent"
+        android:text="@string/home"
+        android:textColor="@color/white" />
+</LinearLayout>

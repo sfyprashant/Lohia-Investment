@@ -1,0 +1,627 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.Lohia.investment"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-feature
+11-->D:\android\Lohia\app\src\main\AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.telephony"
+12-->D:\android\Lohia\app\src\main\AndroidManifest.xml:6:9-50
+13        android:required="false" />
+13-->D:\android\Lohia\app\src\main\AndroidManifest.xml:7:9-33
+14
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->D:\android\Lohia\app\src\main\AndroidManifest.xml:9:5-77
+15-->D:\android\Lohia\app\src\main\AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->D:\android\Lohia\app\src\main\AndroidManifest.xml:10:5-80
+16-->D:\android\Lohia\app\src\main\AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->D:\android\Lohia\app\src\main\AndroidManifest.xml:11:5-79
+17-->D:\android\Lohia\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->D:\android\Lohia\app\src\main\AndroidManifest.xml:12:5-67
+18-->D:\android\Lohia\app\src\main\AndroidManifest.xml:12:22-64
+19    <uses-permission android:name="android.permission.CALL_PHONE" />
+19-->D:\android\Lohia\app\src\main\AndroidManifest.xml:13:5-69
+19-->D:\android\Lohia\app\src\main\AndroidManifest.xml:13:22-66
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->D:\android\Lohia\app\src\main\AndroidManifest.xml:10:5-80
+20-->D:\android\Lohia\app\src\main\AndroidManifest.xml:10:22-77
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\8b6fe63f7daaf0fe64ce798b9db174b6\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:24:5-68
+21-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\8b6fe63f7daaf0fe64ce798b9db174b6\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:24:22-65
+22    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+22-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\8b6fe63f7daaf0fe64ce798b9db174b6\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:25:5-79
+22-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\8b6fe63f7daaf0fe64ce798b9db174b6\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:25:22-76
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\bdc78940c1ea845e24aa1684d6494d8e\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\bdc78940c1ea845e24aa1684d6494d8e\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:26:22-107
+24
+25    <permission
+25-->[androidx.core:core:1.9.0] C:\Users\Darkside\.gradle\caches\transforms-3\560ac6e016613d032d72f268d9b23130\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+26        android:name="com.Lohia.investment.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.9.0] C:\Users\Darkside\.gradle\caches\transforms-3\560ac6e016613d032d72f268d9b23130\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.9.0] C:\Users\Darkside\.gradle\caches\transforms-3\560ac6e016613d032d72f268d9b23130\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.Lohia.investment.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.9.0] C:\Users\Darkside\.gradle\caches\transforms-3\560ac6e016613d032d72f268d9b23130\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.9.0] C:\Users\Darkside\.gradle\caches\transforms-3\560ac6e016613d032d72f268d9b23130\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+30
+31    <application
+31-->D:\android\Lohia\app\src\main\AndroidManifest.xml:17:5-174:19
+32        android:allowBackup="true"
+32-->D:\android\Lohia\app\src\main\AndroidManifest.xml:18:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.9.0] C:\Users\Darkside\.gradle\caches\transforms-3\560ac6e016613d032d72f268d9b23130\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+34        android:dataExtractionRules="@xml/data_extraction_rules"
+34-->D:\android\Lohia\app\src\main\AndroidManifest.xml:19:9-65
+35        android:debuggable="true"
+36        android:extractNativeLibs="true"
+37        android:fullBackupContent="@xml/backup_rules"
+37-->D:\android\Lohia\app\src\main\AndroidManifest.xml:20:9-54
+38        android:icon="@drawable/lohia_logo"
+38-->D:\android\Lohia\app\src\main\AndroidManifest.xml:21:9-44
+39        android:label="@string/app_name"
+39-->D:\android\Lohia\app\src\main\AndroidManifest.xml:22:9-41
+40        android:requestLegacyExternalStorage="true"
+40-->D:\android\Lohia\app\src\main\AndroidManifest.xml:23:9-52
+41        android:roundIcon="@drawable/lohia_logo"
+41-->D:\android\Lohia\app\src\main\AndroidManifest.xml:24:9-49
+42        android:supportsRtl="true"
+42-->D:\android\Lohia\app\src\main\AndroidManifest.xml:25:9-35
+43        android:theme="@style/Theme.Lohia" >
+43-->D:\android\Lohia\app\src\main\AndroidManifest.xml:26:9-43
+44        <service
+44-->D:\android\Lohia\app\src\main\AndroidManifest.xml:28:9-29:40
+45            android:name="com.Lohia.investment.classes.Notification_Service"
+45-->D:\android\Lohia\app\src\main\AndroidManifest.xml:28:18-82
+46            android:exported="false" />
+46-->D:\android\Lohia\app\src\main\AndroidManifest.xml:29:13-37
+47
+48        <activity
+48-->D:\android\Lohia\app\src\main\AndroidManifest.xml:31:9-37:20
+49            android:name="com.Lohia.investment.SplashActivity"
+49-->D:\android\Lohia\app\src\main\AndroidManifest.xml:32:13-63
+50            android:exported="false" >
+50-->D:\android\Lohia\app\src\main\AndroidManifest.xml:33:13-37
+51            <meta-data
+51-->D:\android\Lohia\app\src\main\AndroidManifest.xml:34:13-36:36
+52                android:name="android.app.lib_name"
+52-->D:\android\Lohia\app\src\main\AndroidManifest.xml:35:17-52
+53                android:value="" />
+53-->D:\android\Lohia\app\src\main\AndroidManifest.xml:36:17-33
+54        </activity>
+55        <activity
+55-->D:\android\Lohia\app\src\main\AndroidManifest.xml:38:9-44:20
+56            android:name="com.Lohia.investment.Add_Policy_Activity"
+56-->D:\android\Lohia\app\src\main\AndroidManifest.xml:39:13-68
+57            android:exported="false" >
+57-->D:\android\Lohia\app\src\main\AndroidManifest.xml:40:13-37
+58            <meta-data
+58-->D:\android\Lohia\app\src\main\AndroidManifest.xml:34:13-36:36
+59                android:name="android.app.lib_name"
+59-->D:\android\Lohia\app\src\main\AndroidManifest.xml:35:17-52
+60                android:value="" />
+60-->D:\android\Lohia\app\src\main\AndroidManifest.xml:36:17-33
+61        </activity>
+62        <activity
+62-->D:\android\Lohia\app\src\main\AndroidManifest.xml:45:9-51:20
+63            android:name="com.Lohia.investment.Update_Request_Activity"
+63-->D:\android\Lohia\app\src\main\AndroidManifest.xml:46:13-72
+64            android:exported="false" >
+64-->D:\android\Lohia\app\src\main\AndroidManifest.xml:47:13-37
+65            <meta-data
+65-->D:\android\Lohia\app\src\main\AndroidManifest.xml:34:13-36:36
+66                android:name="android.app.lib_name"
+66-->D:\android\Lohia\app\src\main\AndroidManifest.xml:35:17-52
+67                android:value="" />
+67-->D:\android\Lohia\app\src\main\AndroidManifest.xml:36:17-33
+68        </activity>
+69        <activity
+69-->D:\android\Lohia\app\src\main\AndroidManifest.xml:52:9-58:20
+70            android:name="com.Lohia.investment.ChildTree.Child_Car_Data"
+70-->D:\android\Lohia\app\src\main\AndroidManifest.xml:53:13-73
+71            android:exported="false" >
+71-->D:\android\Lohia\app\src\main\AndroidManifest.xml:54:13-37
+72            <meta-data
+72-->D:\android\Lohia\app\src\main\AndroidManifest.xml:34:13-36:36
+73                android:name="android.app.lib_name"
+73-->D:\android\Lohia\app\src\main\AndroidManifest.xml:35:17-52
+74                android:value="" />
+74-->D:\android\Lohia\app\src\main\AndroidManifest.xml:36:17-33
+75        </activity>
+76        <activity
+76-->D:\android\Lohia\app\src\main\AndroidManifest.xml:59:9-65:20
+77            android:name="com.Lohia.investment.ChildTree.Child_Terms_Data"
+77-->D:\android\Lohia\app\src\main\AndroidManifest.xml:60:13-75
+78            android:exported="false" >
+78-->D:\android\Lohia\app\src\main\AndroidManifest.xml:61:13-37
+79            <meta-data
+79-->D:\android\Lohia\app\src\main\AndroidManifest.xml:34:13-36:36
+80                android:name="android.app.lib_name"
+80-->D:\android\Lohia\app\src\main\AndroidManifest.xml:35:17-52
+81                android:value="" />
+81-->D:\android\Lohia\app\src\main\AndroidManifest.xml:36:17-33
+82        </activity>
+83        <activity
+83-->D:\android\Lohia\app\src\main\AndroidManifest.xml:66:9-72:20
+84            android:name="com.Lohia.investment.ChildTree.Child_Health_Data"
+84-->D:\android\Lohia\app\src\main\AndroidManifest.xml:67:13-76
+85            android:exported="false" >
+85-->D:\android\Lohia\app\src\main\AndroidManifest.xml:68:13-37
+86            <meta-data
+86-->D:\android\Lohia\app\src\main\AndroidManifest.xml:34:13-36:36
+87                android:name="android.app.lib_name"
+87-->D:\android\Lohia\app\src\main\AndroidManifest.xml:35:17-52
+88                android:value="" />
+88-->D:\android\Lohia\app\src\main\AndroidManifest.xml:36:17-33
+89        </activity>
+90        <activity
+90-->D:\android\Lohia\app\src\main\AndroidManifest.xml:73:9-79:20
+91            android:name="com.Lohia.investment.No_Policy_Page"
+91-->D:\android\Lohia\app\src\main\AndroidManifest.xml:74:13-63
+92            android:exported="false" >
+92-->D:\android\Lohia\app\src\main\AndroidManifest.xml:75:13-37
+93            <meta-data
+93-->D:\android\Lohia\app\src\main\AndroidManifest.xml:34:13-36:36
+94                android:name="android.app.lib_name"
+94-->D:\android\Lohia\app\src\main\AndroidManifest.xml:35:17-52
+95                android:value="" />
+95-->D:\android\Lohia\app\src\main\AndroidManifest.xml:36:17-33
+96        </activity>
+97        <activity
+97-->D:\android\Lohia\app\src\main\AndroidManifest.xml:80:9-86:20
+98            android:name="com.Lohia.investment.InvestmentActivity"
+98-->D:\android\Lohia\app\src\main\AndroidManifest.xml:81:13-67
+99            android:exported="false" >
+99-->D:\android\Lohia\app\src\main\AndroidManifest.xml:82:13-37
+100            <meta-data
+100-->D:\android\Lohia\app\src\main\AndroidManifest.xml:34:13-36:36
+101                android:name="android.app.lib_name"
+101-->D:\android\Lohia\app\src\main\AndroidManifest.xml:35:17-52
+102                android:value="" />
+102-->D:\android\Lohia\app\src\main\AndroidManifest.xml:36:17-33
+103        </activity>
+104        <activity
+104-->D:\android\Lohia\app\src\main\AndroidManifest.xml:87:9-93:20
+105            android:name="com.Lohia.investment.Car_showActivity"
+105-->D:\android\Lohia\app\src\main\AndroidManifest.xml:88:13-65
+106            android:exported="false" >
+106-->D:\android\Lohia\app\src\main\AndroidManifest.xml:89:13-37
+107            <meta-data
+107-->D:\android\Lohia\app\src\main\AndroidManifest.xml:34:13-36:36
+108                android:name="android.app.lib_name"
+108-->D:\android\Lohia\app\src\main\AndroidManifest.xml:35:17-52
+109                android:value="" />
+109-->D:\android\Lohia\app\src\main\AndroidManifest.xml:36:17-33
+110        </activity>
+111        <activity
+111-->D:\android\Lohia\app\src\main\AndroidManifest.xml:94:9-100:20
+112            android:name="com.Lohia.investment.HomeDataActivity"
+112-->D:\android\Lohia\app\src\main\AndroidManifest.xml:95:13-65
+113            android:exported="false" >
+113-->D:\android\Lohia\app\src\main\AndroidManifest.xml:96:13-37
+114            <meta-data
+114-->D:\android\Lohia\app\src\main\AndroidManifest.xml:34:13-36:36
+115                android:name="android.app.lib_name"
+115-->D:\android\Lohia\app\src\main\AndroidManifest.xml:35:17-52
+116                android:value="" />
+116-->D:\android\Lohia\app\src\main\AndroidManifest.xml:36:17-33
+117        </activity>
+118        <activity
+118-->D:\android\Lohia\app\src\main\AndroidManifest.xml:101:9-107:20
+119            android:name="com.Lohia.investment.CarDataActivity"
+119-->D:\android\Lohia\app\src\main\AndroidManifest.xml:102:13-64
+120            android:exported="false" >
+120-->D:\android\Lohia\app\src\main\AndroidManifest.xml:103:13-37
+121            <meta-data
+121-->D:\android\Lohia\app\src\main\AndroidManifest.xml:34:13-36:36
+122                android:name="android.app.lib_name"
+122-->D:\android\Lohia\app\src\main\AndroidManifest.xml:35:17-52
+123                android:value="" />
+123-->D:\android\Lohia\app\src\main\AndroidManifest.xml:36:17-33
+124        </activity>
+125        <activity
+125-->D:\android\Lohia\app\src\main\AndroidManifest.xml:108:9-114:20
+126            android:name="com.Lohia.investment.TermDataActivity"
+126-->D:\android\Lohia\app\src\main\AndroidManifest.xml:109:13-65
+127            android:exported="false" >
+127-->D:\android\Lohia\app\src\main\AndroidManifest.xml:110:13-37
+128            <meta-data
+128-->D:\android\Lohia\app\src\main\AndroidManifest.xml:34:13-36:36
+129                android:name="android.app.lib_name"
+129-->D:\android\Lohia\app\src\main\AndroidManifest.xml:35:17-52
+130                android:value="" />
+130-->D:\android\Lohia\app\src\main\AndroidManifest.xml:36:17-33
+131        </activity>
+132        <activity
+132-->D:\android\Lohia\app\src\main\AndroidManifest.xml:115:9-121:20
+133            android:name="com.Lohia.investment.TermPolicyFromActivity"
+133-->D:\android\Lohia\app\src\main\AndroidManifest.xml:116:13-71
+134            android:exported="false" >
+134-->D:\android\Lohia\app\src\main\AndroidManifest.xml:117:13-37
+135            <meta-data
+135-->D:\android\Lohia\app\src\main\AndroidManifest.xml:34:13-36:36
+136                android:name="android.app.lib_name"
+136-->D:\android\Lohia\app\src\main\AndroidManifest.xml:35:17-52
+137                android:value="" />
+137-->D:\android\Lohia\app\src\main\AndroidManifest.xml:36:17-33
+138        </activity>
+139        <activity
+139-->D:\android\Lohia\app\src\main\AndroidManifest.xml:122:9-128:20
+140            android:name="com.Lohia.investment.PaymentSuccessActivity"
+140-->D:\android\Lohia\app\src\main\AndroidManifest.xml:123:13-71
+141            android:exported="false" >
+141-->D:\android\Lohia\app\src\main\AndroidManifest.xml:124:13-37
+142            <meta-data
+142-->D:\android\Lohia\app\src\main\AndroidManifest.xml:34:13-36:36
+143                android:name="android.app.lib_name"
+143-->D:\android\Lohia\app\src\main\AndroidManifest.xml:35:17-52
+144                android:value="" />
+144-->D:\android\Lohia\app\src\main\AndroidManifest.xml:36:17-33
+145        </activity>
+146        <activity
+146-->D:\android\Lohia\app\src\main\AndroidManifest.xml:129:9-135:20
+147            android:name="com.Lohia.investment.Policy_Form_Activity"
+147-->D:\android\Lohia\app\src\main\AndroidManifest.xml:130:13-69
+148            android:exported="false" >
+148-->D:\android\Lohia\app\src\main\AndroidManifest.xml:131:13-37
+149            <meta-data
+149-->D:\android\Lohia\app\src\main\AndroidManifest.xml:34:13-36:36
+150                android:name="android.app.lib_name"
+150-->D:\android\Lohia\app\src\main\AndroidManifest.xml:35:17-52
+151                android:value="" />
+151-->D:\android\Lohia\app\src\main\AndroidManifest.xml:36:17-33
+152        </activity>
+153        <activity
+153-->D:\android\Lohia\app\src\main\AndroidManifest.xml:136:9-142:20
+154            android:name="com.Lohia.investment.UserDataActivity"
+154-->D:\android\Lohia\app\src\main\AndroidManifest.xml:137:13-65
+155            android:exported="false" >
+155-->D:\android\Lohia\app\src\main\AndroidManifest.xml:138:13-37
+156            <meta-data
+156-->D:\android\Lohia\app\src\main\AndroidManifest.xml:34:13-36:36
+157                android:name="android.app.lib_name"
+157-->D:\android\Lohia\app\src\main\AndroidManifest.xml:35:17-52
+158                android:value="" />
+158-->D:\android\Lohia\app\src\main\AndroidManifest.xml:36:17-33
+159        </activity>
+160        <activity
+160-->D:\android\Lohia\app\src\main\AndroidManifest.xml:143:9-149:20
+161            android:name="com.Lohia.investment.TreeShowActivity"
+161-->D:\android\Lohia\app\src\main\AndroidManifest.xml:144:13-65
+162            android:exported="false" >
+162-->D:\android\Lohia\app\src\main\AndroidManifest.xml:145:13-37
+163            <meta-data
+163-->D:\android\Lohia\app\src\main\AndroidManifest.xml:34:13-36:36
+164                android:name="android.app.lib_name"
+164-->D:\android\Lohia\app\src\main\AndroidManifest.xml:35:17-52
+165                android:value="" />
+165-->D:\android\Lohia\app\src\main\AndroidManifest.xml:36:17-33
+166        </activity>
+167        <activity
+167-->D:\android\Lohia\app\src\main\AndroidManifest.xml:150:9-152:40
+168            android:name="com.Lohia.investment.usernameActivity"
+168-->D:\android\Lohia\app\src\main\AndroidManifest.xml:151:13-65
+169            android:exported="false" />
+169-->D:\android\Lohia\app\src\main\AndroidManifest.xml:152:13-37
+170        <activity
+170-->D:\android\Lohia\app\src\main\AndroidManifest.xml:153:9-155:40
+171            android:name="com.Lohia.investment.otpfill"
+171-->D:\android\Lohia\app\src\main\AndroidManifest.xml:154:13-56
+172            android:exported="false" />
+172-->D:\android\Lohia\app\src\main\AndroidManifest.xml:155:13-37
+173        <activity
+173-->D:\android\Lohia\app\src\main\AndroidManifest.xml:156:9-158:40
+174            android:name="com.Lohia.investment.LoginActivity"
+174-->D:\android\Lohia\app\src\main\AndroidManifest.xml:157:13-62
+175            android:exported="false" />
+175-->D:\android\Lohia\app\src\main\AndroidManifest.xml:158:13-37
+176        <activity
+176-->D:\android\Lohia\app\src\main\AndroidManifest.xml:159:9-167:20
+177            android:name="com.Lohia.investment.splash"
+177-->D:\android\Lohia\app\src\main\AndroidManifest.xml:160:13-55
+178            android:exported="true" >
+178-->D:\android\Lohia\app\src\main\AndroidManifest.xml:161:13-36
+179            <intent-filter>
+179-->D:\android\Lohia\app\src\main\AndroidManifest.xml:162:13-166:29
+180                <action android:name="android.intent.action.MAIN" />
+180-->D:\android\Lohia\app\src\main\AndroidManifest.xml:163:17-69
+180-->D:\android\Lohia\app\src\main\AndroidManifest.xml:163:25-66
+181
+182                <category android:name="android.intent.category.LAUNCHER" />
+182-->D:\android\Lohia\app\src\main\AndroidManifest.xml:165:17-77
+182-->D:\android\Lohia\app\src\main\AndroidManifest.xml:165:27-74
+183            </intent-filter>
+184        </activity>
+185        <activity
+185-->D:\android\Lohia\app\src\main\AndroidManifest.xml:168:9-170:40
+186            android:name="com.Lohia.investment.MainActivity"
+186-->D:\android\Lohia\app\src\main\AndroidManifest.xml:169:13-61
+187            android:exported="false" />
+187-->D:\android\Lohia\app\src\main\AndroidManifest.xml:170:13-37
+188        <activity
+188-->D:\android\Lohia\app\src\main\AndroidManifest.xml:171:9-173:40
+189            android:name="com.Lohia.investment.signupActivity"
+189-->D:\android\Lohia\app\src\main\AndroidManifest.xml:172:13-63
+190            android:exported="false" />
+190-->D:\android\Lohia\app\src\main\AndroidManifest.xml:173:13-37
+191
+192        <service
+192-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Darkside\.gradle\caches\transforms-3\cdf54d7dfa46f9d7a09874902362eb71\transformed\firebase-database-ktx-20.2.2\AndroidManifest.xml:11:9-17:19
+193            android:name="com.google.firebase.components.ComponentDiscoveryService"
+193-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Darkside\.gradle\caches\transforms-3\cdf54d7dfa46f9d7a09874902362eb71\transformed\firebase-database-ktx-20.2.2\AndroidManifest.xml:12:13-84
+194            android:directBootAware="true"
+194-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Darkside\.gradle\caches\transforms-3\816862f15f7bee0dd49e43316a276964\transformed\firebase-common-20.3.3\AndroidManifest.xml:34:13-43
+195            android:exported="false" >
+195-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Darkside\.gradle\caches\transforms-3\cdf54d7dfa46f9d7a09874902362eb71\transformed\firebase-database-ktx-20.2.2\AndroidManifest.xml:13:13-37
+196            <meta-data
+196-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Darkside\.gradle\caches\transforms-3\cdf54d7dfa46f9d7a09874902362eb71\transformed\firebase-database-ktx-20.2.2\AndroidManifest.xml:14:13-16:85
+197                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+197-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Darkside\.gradle\caches\transforms-3\cdf54d7dfa46f9d7a09874902362eb71\transformed\firebase-database-ktx-20.2.2\AndroidManifest.xml:15:17-124
+198                android:value="com.google.firebase.components.ComponentRegistrar" />
+198-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Darkside\.gradle\caches\transforms-3\cdf54d7dfa46f9d7a09874902362eb71\transformed\firebase-database-ktx-20.2.2\AndroidManifest.xml:16:17-82
+199            <meta-data
+199-->[com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\f983cc85e8caadd2f49472f297272646\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:11:13-13:85
+200                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+200-->[com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\f983cc85e8caadd2f49472f297272646\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:12:17-116
+201                android:value="com.google.firebase.components.ComponentRegistrar" />
+201-->[com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\f983cc85e8caadd2f49472f297272646\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:13:17-82
+202            <meta-data
+202-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:69:13-71:85
+203                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+203-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:70:17-109
+204                android:value="com.google.firebase.components.ComponentRegistrar" />
+204-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:71:17-82
+205            <meta-data
+205-->[com.google.firebase:firebase-firestore-ktx:24.7.1] C:\Users\Darkside\.gradle\caches\transforms-3\ea393da6c29d08ff859549e7d92f9f66\transformed\firebase-firestore-ktx-24.7.1\AndroidManifest.xml:12:13-14:85
+206                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+206-->[com.google.firebase:firebase-firestore-ktx:24.7.1] C:\Users\Darkside\.gradle\caches\transforms-3\ea393da6c29d08ff859549e7d92f9f66\transformed\firebase-firestore-ktx-24.7.1\AndroidManifest.xml:13:17-126
+207                android:value="com.google.firebase.components.ComponentRegistrar" />
+207-->[com.google.firebase:firebase-firestore-ktx:24.7.1] C:\Users\Darkside\.gradle\caches\transforms-3\ea393da6c29d08ff859549e7d92f9f66\transformed\firebase-firestore-ktx-24.7.1\AndroidManifest.xml:14:17-82
+208            <meta-data
+208-->[com.google.firebase:firebase-firestore:24.7.1] C:\Users\Darkside\.gradle\caches\transforms-3\7cf9cd0ec6abcdc426d91dee147c5bc0\transformed\firebase-firestore-24.7.1\AndroidManifest.xml:17:13-19:85
+209                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+209-->[com.google.firebase:firebase-firestore:24.7.1] C:\Users\Darkside\.gradle\caches\transforms-3\7cf9cd0ec6abcdc426d91dee147c5bc0\transformed\firebase-firestore-24.7.1\AndroidManifest.xml:18:17-111
+210                android:value="com.google.firebase.components.ComponentRegistrar" />
+210-->[com.google.firebase:firebase-firestore:24.7.1] C:\Users\Darkside\.gradle\caches\transforms-3\7cf9cd0ec6abcdc426d91dee147c5bc0\transformed\firebase-firestore-24.7.1\AndroidManifest.xml:19:17-82
+211            <meta-data
+211-->[com.google.firebase:firebase-crashlytics:18.4.1] C:\Users\Darkside\.gradle\caches\transforms-3\c8d86400521f356434ff4320e1d7ad72\transformed\firebase-crashlytics-18.4.1\AndroidManifest.xml:15:13-17:85
+212                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+212-->[com.google.firebase:firebase-crashlytics:18.4.1] C:\Users\Darkside\.gradle\caches\transforms-3\c8d86400521f356434ff4320e1d7ad72\transformed\firebase-crashlytics-18.4.1\AndroidManifest.xml:16:17-115
+213                android:value="com.google.firebase.components.ComponentRegistrar" />
+213-->[com.google.firebase:firebase-crashlytics:18.4.1] C:\Users\Darkside\.gradle\caches\transforms-3\c8d86400521f356434ff4320e1d7ad72\transformed\firebase-crashlytics-18.4.1\AndroidManifest.xml:17:17-82
+214            <meta-data
+214-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\Darkside\.gradle\caches\transforms-3\dabbe0243f129536af08243f94073c77\transformed\firebase-storage-20.2.1\AndroidManifest.xml:32:13-34:85
+215                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+215-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\Darkside\.gradle\caches\transforms-3\dabbe0243f129536af08243f94073c77\transformed\firebase-storage-20.2.1\AndroidManifest.xml:33:17-107
+216                android:value="com.google.firebase.components.ComponentRegistrar" />
+216-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\Darkside\.gradle\caches\transforms-3\dabbe0243f129536af08243f94073c77\transformed\firebase-storage-20.2.1\AndroidManifest.xml:34:17-82
+217            <meta-data
+217-->[com.google.firebase:firebase-sessions:1.0.2] C:\Users\Darkside\.gradle\caches\transforms-3\92ddbc2ed5a542d6eb3e937c7e598fec\transformed\firebase-sessions-1.0.2\AndroidManifest.xml:25:13-27:85
+218                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+218-->[com.google.firebase:firebase-sessions:1.0.2] C:\Users\Darkside\.gradle\caches\transforms-3\92ddbc2ed5a542d6eb3e937c7e598fec\transformed\firebase-sessions-1.0.2\AndroidManifest.xml:26:17-117
+219                android:value="com.google.firebase.components.ComponentRegistrar" />
+219-->[com.google.firebase:firebase-sessions:1.0.2] C:\Users\Darkside\.gradle\caches\transforms-3\92ddbc2ed5a542d6eb3e937c7e598fec\transformed\firebase-sessions-1.0.2\AndroidManifest.xml:27:17-82
+220            <meta-data
+220-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\Darkside\.gradle\caches\transforms-3\38e665ae2b183ee2f0c892fd9eb146ff\transformed\firebase-datatransport-18.1.8\AndroidManifest.xml:27:13-29:85
+221                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+221-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\Darkside\.gradle\caches\transforms-3\38e665ae2b183ee2f0c892fd9eb146ff\transformed\firebase-datatransport-18.1.8\AndroidManifest.xml:28:17-115
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\Darkside\.gradle\caches\transforms-3\38e665ae2b183ee2f0c892fd9eb146ff\transformed\firebase-datatransport-18.1.8\AndroidManifest.xml:29:17-82
+223            <meta-data
+223-->[com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\Darkside\.gradle\caches\transforms-3\676232949ffd7afc9fe9798a6ffccea1\transformed\firebase-common-ktx-20.3.3\AndroidManifest.xml:14:13-16:85
+224                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+224-->[com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\Darkside\.gradle\caches\transforms-3\676232949ffd7afc9fe9798a6ffccea1\transformed\firebase-common-ktx-20.3.3\AndroidManifest.xml:15:17-113
+225                android:value="com.google.firebase.components.ComponentRegistrar" />
+225-->[com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\Darkside\.gradle\caches\transforms-3\676232949ffd7afc9fe9798a6ffccea1\transformed\firebase-common-ktx-20.3.3\AndroidManifest.xml:16:17-82
+226            <meta-data
+226-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Darkside\.gradle\caches\transforms-3\3551fb64cb8c2caf5f776e106f443e6d\transformed\firebase-database-20.2.2\AndroidManifest.xml:31:13-33:85
+227                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+227-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Darkside\.gradle\caches\transforms-3\3551fb64cb8c2caf5f776e106f443e6d\transformed\firebase-database-20.2.2\AndroidManifest.xml:32:17-109
+228                android:value="com.google.firebase.components.ComponentRegistrar" />
+228-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Darkside\.gradle\caches\transforms-3\3551fb64cb8c2caf5f776e106f443e6d\transformed\firebase-database-20.2.2\AndroidManifest.xml:33:17-82
+229            <meta-data
+229-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\8b6fe63f7daaf0fe64ce798b9db174b6\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:31:13-33:85
+230                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+230-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\8b6fe63f7daaf0fe64ce798b9db174b6\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:32:17-139
+231                android:value="com.google.firebase.components.ComponentRegistrar" />
+231-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\8b6fe63f7daaf0fe64ce798b9db174b6\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:33:17-82
+232            <meta-data
+232-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\Darkside\.gradle\caches\transforms-3\650d0e62a5456f9843b65b867278caa0\transformed\firebase-installations-17.1.4\AndroidManifest.xml:15:13-17:85
+233                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+233-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\Darkside\.gradle\caches\transforms-3\650d0e62a5456f9843b65b867278caa0\transformed\firebase-installations-17.1.4\AndroidManifest.xml:16:17-127
+234                android:value="com.google.firebase.components.ComponentRegistrar" />
+234-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\Darkside\.gradle\caches\transforms-3\650d0e62a5456f9843b65b867278caa0\transformed\firebase-installations-17.1.4\AndroidManifest.xml:17:17-82
+235        </service>
+236
+237        <activity
+237-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:29:9-46:20
+238            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+238-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:30:13-80
+239            android:excludeFromRecents="true"
+239-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:31:13-46
+240            android:exported="true"
+240-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:32:13-36
+241            android:launchMode="singleTask"
+241-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:33:13-44
+242            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+242-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:34:13-72
+243            <intent-filter>
+243-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:35:13-45:29
+244                <action android:name="android.intent.action.VIEW" />
+244-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:36:17-69
+244-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:36:25-66
+245
+246                <category android:name="android.intent.category.DEFAULT" />
+246-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:38:17-76
+246-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:38:27-73
+247                <category android:name="android.intent.category.BROWSABLE" />
+247-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:39:17-78
+247-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:39:27-75
+248
+249                <data
+249-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:41:17-44:51
+250                    android:host="firebase.auth"
+250-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:42:21-49
+251                    android:path="/"
+251-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:43:21-37
+252                    android:scheme="genericidp" />
+252-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:44:21-48
+253            </intent-filter>
+254        </activity>
+255        <activity
+255-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:47:9-64:20
+256            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+256-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:48:13-79
+257            android:excludeFromRecents="true"
+257-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:49:13-46
+258            android:exported="true"
+258-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:50:13-36
+259            android:launchMode="singleTask"
+259-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:51:13-44
+260            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+260-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:52:13-72
+261            <intent-filter>
+261-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:53:13-63:29
+262                <action android:name="android.intent.action.VIEW" />
+262-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:36:17-69
+262-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:36:25-66
+263
+264                <category android:name="android.intent.category.DEFAULT" />
+264-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:38:17-76
+264-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:38:27-73
+265                <category android:name="android.intent.category.BROWSABLE" />
+265-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:39:17-78
+265-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:39:27-75
+266
+267                <data
+267-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:41:17-44:51
+268                    android:host="firebase.auth"
+268-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:42:21-49
+269                    android:path="/"
+269-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:43:21-37
+270                    android:scheme="recaptcha" />
+270-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\Darkside\.gradle\caches\transforms-3\6edbe181fa77b25e0ef366f091792548\transformed\firebase-auth-22.1.1\AndroidManifest.xml:44:21-48
+271            </intent-filter>
+272        </activity>
+273
+274        <service
+274-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Darkside\.gradle\caches\transforms-3\5dda0015e5e664545166bbc810aef83a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+275            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+275-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Darkside\.gradle\caches\transforms-3\5dda0015e5e664545166bbc810aef83a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+276            android:exported="false" >
+276-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Darkside\.gradle\caches\transforms-3\5dda0015e5e664545166bbc810aef83a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+277            <meta-data
+277-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Darkside\.gradle\caches\transforms-3\5dda0015e5e664545166bbc810aef83a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+278                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+278-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Darkside\.gradle\caches\transforms-3\5dda0015e5e664545166bbc810aef83a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+279                android:value="cct" />
+279-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Darkside\.gradle\caches\transforms-3\5dda0015e5e664545166bbc810aef83a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+280        </service>
+281        <service
+281-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Darkside\.gradle\caches\transforms-3\78cc6f9782e5598c33a50e6002a91a99\transformed\transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+282            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+282-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Darkside\.gradle\caches\transforms-3\78cc6f9782e5598c33a50e6002a91a99\transformed\transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+283            android:exported="false"
+283-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Darkside\.gradle\caches\transforms-3\78cc6f9782e5598c33a50e6002a91a99\transformed\transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+284            android:permission="android.permission.BIND_JOB_SERVICE" >
+284-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Darkside\.gradle\caches\transforms-3\78cc6f9782e5598c33a50e6002a91a99\transformed\transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+285        </service>
+286
+287        <receiver
+287-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Darkside\.gradle\caches\transforms-3\78cc6f9782e5598c33a50e6002a91a99\transformed\transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+288            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+288-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Darkside\.gradle\caches\transforms-3\78cc6f9782e5598c33a50e6002a91a99\transformed\transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+289            android:exported="false" />
+289-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Darkside\.gradle\caches\transforms-3\78cc6f9782e5598c33a50e6002a91a99\transformed\transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+290
+291        <provider
+291-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Darkside\.gradle\caches\transforms-3\816862f15f7bee0dd49e43316a276964\transformed\firebase-common-20.3.3\AndroidManifest.xml:25:9-30:39
+292            android:name="com.google.firebase.provider.FirebaseInitProvider"
+292-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Darkside\.gradle\caches\transforms-3\816862f15f7bee0dd49e43316a276964\transformed\firebase-common-20.3.3\AndroidManifest.xml:26:13-77
+293            android:authorities="com.Lohia.investment.firebaseinitprovider"
+293-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Darkside\.gradle\caches\transforms-3\816862f15f7bee0dd49e43316a276964\transformed\firebase-common-20.3.3\AndroidManifest.xml:27:13-72
+294            android:directBootAware="true"
+294-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Darkside\.gradle\caches\transforms-3\816862f15f7bee0dd49e43316a276964\transformed\firebase-common-20.3.3\AndroidManifest.xml:28:13-43
+295            android:exported="false"
+295-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Darkside\.gradle\caches\transforms-3\816862f15f7bee0dd49e43316a276964\transformed\firebase-common-20.3.3\AndroidManifest.xml:29:13-37
+296            android:initOrder="100" />
+296-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Darkside\.gradle\caches\transforms-3\816862f15f7bee0dd49e43316a276964\transformed\firebase-common-20.3.3\AndroidManifest.xml:30:13-36
+297
+298        <activity
+298-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Darkside\.gradle\caches\transforms-3\b21be0d62398a10692b565cf6dbe50c4\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+299            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+299-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Darkside\.gradle\caches\transforms-3\b21be0d62398a10692b565cf6dbe50c4\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+300            android:exported="false"
+300-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Darkside\.gradle\caches\transforms-3\b21be0d62398a10692b565cf6dbe50c4\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+301            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+301-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Darkside\.gradle\caches\transforms-3\b21be0d62398a10692b565cf6dbe50c4\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+302
+303        <receiver
+303-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\bdc78940c1ea845e24aa1684d6494d8e\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:29:9-33:20
+304            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+304-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\bdc78940c1ea845e24aa1684d6494d8e\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:30:13-85
+305            android:enabled="true"
+305-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\bdc78940c1ea845e24aa1684d6494d8e\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:31:13-35
+306            android:exported="false" >
+306-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\bdc78940c1ea845e24aa1684d6494d8e\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:32:13-37
+307        </receiver>
+308
+309        <service
+309-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\bdc78940c1ea845e24aa1684d6494d8e\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:35:9-38:40
+310            android:name="com.google.android.gms.measurement.AppMeasurementService"
+310-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\bdc78940c1ea845e24aa1684d6494d8e\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:36:13-84
+311            android:enabled="true"
+311-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\bdc78940c1ea845e24aa1684d6494d8e\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:37:13-35
+312            android:exported="false" />
+312-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\bdc78940c1ea845e24aa1684d6494d8e\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:38:13-37
+313        <service
+313-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\bdc78940c1ea845e24aa1684d6494d8e\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:39:9-43:72
+314            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+314-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\bdc78940c1ea845e24aa1684d6494d8e\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:40:13-87
+315            android:enabled="true"
+315-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\bdc78940c1ea845e24aa1684d6494d8e\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:41:13-35
+316            android:exported="false"
+316-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\bdc78940c1ea845e24aa1684d6494d8e\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:42:13-37
+317            android:permission="android.permission.BIND_JOB_SERVICE" />
+317-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\Darkside\.gradle\caches\transforms-3\bdc78940c1ea845e24aa1684d6494d8e\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:43:13-69
+318
+319        <meta-data
+319-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Darkside\.gradle\caches\transforms-3\3ebfdbd81b98f04a2e3af146cd997b57\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+320            android:name="com.google.android.gms.version"
+320-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Darkside\.gradle\caches\transforms-3\3ebfdbd81b98f04a2e3af146cd997b57\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+321            android:value="@integer/google_play_services_version" />
+321-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Darkside\.gradle\caches\transforms-3\3ebfdbd81b98f04a2e3af146cd997b57\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+322
+323        <provider
+323-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Darkside\.gradle\caches\transforms-3\073d71ee898bfbb07645167289c92b27\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+324            android:name="androidx.startup.InitializationProvider"
+324-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Darkside\.gradle\caches\transforms-3\073d71ee898bfbb07645167289c92b27\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+325            android:authorities="com.Lohia.investment.androidx-startup"
+325-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Darkside\.gradle\caches\transforms-3\073d71ee898bfbb07645167289c92b27\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+326            android:exported="false" >
+326-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Darkside\.gradle\caches\transforms-3\073d71ee898bfbb07645167289c92b27\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+327            <meta-data
+327-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Darkside\.gradle\caches\transforms-3\073d71ee898bfbb07645167289c92b27\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+328                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+328-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Darkside\.gradle\caches\transforms-3\073d71ee898bfbb07645167289c92b27\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+329                android:value="androidx.startup" />
+329-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Darkside\.gradle\caches\transforms-3\073d71ee898bfbb07645167289c92b27\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+330            <meta-data
+330-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Darkside\.gradle\caches\transforms-3\709d3b3876858200ac32e5a573b031b3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+331                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+331-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Darkside\.gradle\caches\transforms-3\709d3b3876858200ac32e5a573b031b3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+332                android:value="androidx.startup" />
+332-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Darkside\.gradle\caches\transforms-3\709d3b3876858200ac32e5a573b031b3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+333        </provider>
+334    </application>
+335
+336</manifest>

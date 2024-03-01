@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:gravity="center">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_160sdp"
+                android:src="@drawable/lohia_logo"
+                android:visibility="invisible"
+                android:id="@+id/iamge_two"
+                app:layout_constraintBottom_toBottomOf="@+id/gif_img"
+                app:layout_constraintEnd_toEndOf="@+id/gif_img"
+                app:layout_constraintStart_toStartOf="@+id/gif_img"
+                app:layout_constraintTop_toTopOf="@+id/gif_img" />
+
+            <ImageView
+                android:id="@+id/gif_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

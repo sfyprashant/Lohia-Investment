@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.Lohia.investment.Add_HealthPolicy_Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Health Policy"
+                android:layout_margin="@dimen/_15sdp"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold"
+                android:textColor="#323232"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Policy From"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <Spinner
+                    android:id="@+id/policy_form_text_field_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:textSize="@dimen/_15sdp"
+                    android:background="@drawable/shapemob"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/black"
+                    android:textColorHint="@color/black"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:importantForAutofill="no"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Policy Type"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <Spinner
+                    android:id="@+id/ploicy_form_text_field_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:textSize="@dimen/_15sdp"
+                    android:background="@drawable/shapemob"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/black"
+                    android:textColorHint="@color/black"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:importantForAutofill="no"/>
+<!--                <EditText-->
+<!--                    android:id="@+id/ploicy_form_text_field_two"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_margin="@dimen/_10sdp"-->
+<!--                    android:autofillHints=""-->
+<!--                    android:textSize="@dimen/_15sdp"-->
+<!--                    android:background="@drawable/shapemob"-->
+<!--                    android:drawablePadding="@dimen/_10sdp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:padding="@dimen/_10sdp"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textColorHighlight="@color/black"-->
+<!--                    android:textColorHint="@color/black"-->
+<!--                    android:imeOptions="actionDone"-->
+<!--                    android:importantForAutofill="no"-->
+<!--                    android:inputType="text" />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Policy Number"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <EditText
+                    android:id="@+id/policy_form_text_field_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:background="@drawable/shapemob"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:textSize="@dimen/_15sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/black"
+                    android:textColorHint="@color/black"
+                    android:imeOptions="actionDone"
+                    android:importantForAutofill="no"
+                    android:inputType="number"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="First Policy Number"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <EditText
+                    android:id="@+id/policy_form_text_field_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:background="@drawable/shapemob"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:textSize="@dimen/_15sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/black"
+                    android:textColorHint="@color/black"
+                    android:imeOptions="actionDone"
+                    android:importantForAutofill="no"
+                    android:inputType="number" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Company Name"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <Spinner
+                    android:id="@+id/policy_form_text_field_eleven"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:textSize="@dimen/_15sdp"
+                    android:background="@drawable/shapemob"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/black"
+                    android:textColorHint="@color/black"
+                    android:imeOptions="actionDone"
+                    android:importantForAutofill="no"
+                    android:inputType="text" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Premium With GST"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/shapemob"
+                    android:weightSum="2"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:gravity="center">
+                    <EditText
+                        android:id="@+id/policy_form_text_field_five"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+                        android:layout_height="wrap_content"
+                        android:autofillHints=""
+                        android:textSize="@dimen/_15sdp"
+                        android:drawablePadding="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:background="@null"
+                        android:imeOptions="actionDone"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:padding="@dimen/_10sdp"
+                        android:textColor="@color/black"
+                        android:textColorHighlight="@color/black"
+                        android:textColorHint="@color/black" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2sp"
+                        android:layout_weight="0.5"
+                        android:id="@+id/PremiumWithout"
+                        android:text="Premium Without GST"
+                        android:textSize="@dimen/_10sdp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimary"/>
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/value_PremiumWithout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:background="@drawable/shapemob"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"
+                    android:textSize="@dimen/_15sdp"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/black"
+                    android:visibility="gone"
+                    android:textColorHint="@color/black" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sum Assured"
+                    android:id="@+id/sum_chanage"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <EditText
+                    android:id="@+id/policy_form_text_field_six"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:background="@drawable/shapemob"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"
+                    android:textSize="@dimen/_15sdp"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/black"
+                    android:textColorHint="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TTD Sum Assured"
+                    android:id="@+id/TTD_Change"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <EditText
+                    android:id="@+id/policy_form_text_field_seven"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:background="@drawable/shapemob"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:textSize="@dimen/_15sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/black"
+                    android:textColorHint="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="First Policy Date"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/policy_form_text_field_eight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:background="@drawable/shapemob"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"
+                    android:inputType="date"
+                    android:textSize="@dimen/_15sdp"
+                    android:importantForAutofill="no"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/black"
+                    android:textColorHint="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Policy Start Date"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/policy_form_text_field_nine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:background="@drawable/shapemob"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:textSize="@dimen/_15sdp"
+                    android:imeOptions="actionDone"
+                    android:importantForAutofill="no"
+                    android:inputType="date"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/black"
+                    android:textColorHint="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Policy End Date"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/policy_form_text_field_ten"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:autofillHints=""
+                    android:background="@drawable/shapemob"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:textSize="@dimen/_15sdp"
+                    android:importantForAutofill="no"
+                    android:inputType="date|time"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/black"
+                    android:textColorHint="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Members Insured"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                android:id="@+id/items_container"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:gravity="center">
+                    <EditText
+                        android:id="@+id/policy_form_text_field_twelve"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.3"
+                        android:layout_height="wrap_content"
+                        android:autofillHints=""
+                        android:background="@drawable/shapemob"
+                        android:drawablePadding="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:textSize="@dimen/_15sdp"
+                        android:importantForAutofill="no"
+                        android:padding="@dimen/_10sdp"
+                        android:textColor="@color/black"
+                        android:textColorHighlight="@color/black"
+                        android:textColorHint="@color/black" />
+                    <Button
+                        android:id="@+id/add_mamber"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.6"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:background="@drawable/shapelogin"
+                        android:padding="@dimen/_5sdp"
+                        android:shadowColor="@android:color/transparent"
+                        android:text="Add MORE"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+
+
+                <Button
+                    android:id="@+id/add_policy"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shapelogin"
+                    android:padding="@dimen/_10sdp"
+                    android:shadowColor="@android:color/transparent"
+                    android:text="Add Policy"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

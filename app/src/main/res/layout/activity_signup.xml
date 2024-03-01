@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/_15sdp"
+    tools:context="com.Lohia.investment.signupActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+
+
+
+        <ImageView
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="231dp"
+            android:layout_marginBottom="@dimen/_90sdp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/lohia_logo"/>
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/letsstart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let's get started!"
+            android:textSize="@dimen/_22sdp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+
+
+        <!--    <EditText-->
+        <!--        android:id="@+id/loginmobile"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_margin="@dimen/_10sdp"-->
+        <!--        android:autofillHints=""-->
+        <!--        android:background="@drawable/shadow_button_layer_list"-->
+        <!--        android:drawablePadding="@dimen/_10sdp"-->
+        <!--        android:gravity="center"-->
+        <!--        android:hint="@string/mobile_no"-->
+        <!--        android:padding="@dimen/_10sdp"-->
+        <!--        android:textColor="@color/black"-->
+        <!--        android:textColorHighlight="@color/black"-->
+        <!--        android:textColorHint="@color/black"-->
+        <!--        android:imeOptions="actionDone"-->
+        <!--        android:importantForAutofill="no"-->
+        <!--        android:inputType="number"-->
+        <!--        tools:ignore="VisualLintTextFieldSize" />-->
+
+        <!--        <EditText-->
+        <!--            android:id="@+id/loginemail"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_margin="@dimen/_10sdp"-->
+        <!--            android:autofillHints=""-->
+        <!--            android:background="@drawable/shadow_button_layer_list"-->
+        <!--            android:drawablePadding="@dimen/_10sdp"-->
+        <!--            android:gravity="center"-->
+        <!--            android:hint="Email ID"-->
+        <!--            android:padding="@dimen/_10sdp"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textColorHighlight="@color/black"-->
+        <!--            android:textColorHint="@color/black" />-->
+
+        <Button
+            android:id="@+id/loginviamobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:width="200dp"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/baseline_smartphone_24"
+            android:paddingStart="@dimen/_20sdp"
+            android:text="@string/login_via_mobile"
+            android:background="@drawable/shadow_button_layer_list"
+            tools:ignore="RtlSymmetry" />
+
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
